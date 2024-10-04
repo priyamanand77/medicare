@@ -17,6 +17,7 @@ import java.util.List;
 @Slf4j
 @RequiredArgsConstructor
 @RequestMapping("/appointment/v1")
+@CrossOrigin("*")
 public class AppointmentController {
 
     private final AppointmentService appointmentService;

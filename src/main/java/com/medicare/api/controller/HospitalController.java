@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @RequiredArgsConstructor
+@CrossOrigin("*")
 public class HospitalController {
 
     private final HospitalService hospitalService;

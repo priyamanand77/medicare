@@ -14,7 +14,6 @@ import lombok.NoArgsConstructor;
 @Table( name = "APPOINTMENTS")
 public class Appointments {
 
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "APPOINTMENT_ID")
